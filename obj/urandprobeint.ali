@@ -1,0 +1,26 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U urandprobeint%b	urandprobeint.adb	55af0444 NE OO PK GE
+
+U urandprobeint%s	urandprobeint.ads	77d61343 BN EE NE OO PK GE
+
+D system.ads		20210520051136 2ffa5114 system%s
+D urandprobeint.ads	20241128213604 77d61343 urandprobeint%s
+D urandprobeint.adb	20241128214044 22791707 urandprobeint%b
+G a e
+G c Z s b [urandprobeint standard 4 9 none]
+X 2 urandprobeint.ads
+2i4 NumBits{integer} 3|12r31
+4k9*URandProbeInt 2z4 9l5 9e18 3|1b14 16l5 16t18
+6U14*InitialRandInteger 3|5b14 8l8 8t26
+7V13*UniqueRandInteger{integer} 3|10b13 14l8 14t25
+X 3 urandprobeint.adb
+3i4 R{integer} 7m7 12m7 12r17 13r14
+

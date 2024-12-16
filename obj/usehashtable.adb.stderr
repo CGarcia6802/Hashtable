@@ -1,0 +1,8 @@
+usehashtable.adb:5:04: warning: types for unchecked conversion have different sizes [-gnatwz]
+usehashtable.adb:36:09: warning: variable "A" is never read and never assigned [-gnatwv]
+usehashtable.adb:36:12: warning: variable "B" is never read and never assigned [-gnatwv]
+usehashtable.adb:36:15: warning: variable "C" is never read and never assigned [-gnatwv]
+usehashtable.adb:36:18: warning: variable "D" is never read and never assigned [-gnatwv]
+usehashtable.adb:176:18: warning: "ave1" may be referenced before it has a value [enabled by default]
+usehashtable.adb:200:18: warning: "ave2" may be referenced before it has a value [enabled by default]
+usehashtable.adb:235:15: warning: "ave3" may be referenced before it has a value [enabled by default]
